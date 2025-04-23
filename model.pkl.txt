@@ -1,0 +1,11 @@
+import joblib
+
+# Example: A simple model (you can use your actual trained model here)
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+
+# Train your model (just a placeholder — use real training code)
+# model.fit(X_train, y_train)
+
+# Save the model in the same folder as app.py
+joblib.dump(model, 'model.pkl')

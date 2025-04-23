@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head><title>Attrition Predictor</title></head>
+<body>
+  <h2>Enter Employee Details:</h2>
+  <form action="/predict" method="post">
+    <!-- Add input fields based on your model -->
+    <input type="text" name="Age" placeholder="Age"><br>
+    <input type="text" name="MonthlyIncome" placeholder="Income"><br>
+    <input type="submit" value="Predict">
+  </form>
+  <h3>{{ prediction_text }}</h3>
+</body>
+</html>
