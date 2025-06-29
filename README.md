@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 #Employee Attrition Predictor using Machine Learning
 
@@ -26,9 +26,7 @@ This project uses a machine learning model to predict whether an employee is lik
 | Authentication   | SQLite                                   |
 | Deployment Ready | Render / Railway Compatible              |
 
----
-
-## 🗃️ Dataset Info
+#Dataset Info
 
 - Source: IBM HR Analytics Dataset (Kaggle)
 - Records: ~1,470 employee records
@@ -36,31 +34,26 @@ This project uses a machine learning model to predict whether an employee is lik
 - Features: Age, BusinessTravel, JobRole, JobSatisfaction, MonthlyIncome, etc.
 - Data Cleaning: Null removal, encoding categorical variables, normalization
 
----
 
-## 📈 Model Details
+#Model Details
 
 - ✅ Model: Random Forest / Logistic Regression
 - 📊 Accuracy: ~88% on test data
 - 📁 Vectorizer: Label Encoding + Scaling
 - 🧪 Evaluation: Confusion Matrix, Classification Report
 
----
+#Features
 
-## 💻 Features
+- User Login/Register System (SQLite)
+- Prediction Page (Input employee data → Get result)
+- Result Output: “Likely to leave” / “Likely to stay”
+- Model Performance Insights
 
-- 🧾 User Login/Register System (SQLite)
-- 🔍 Prediction Page (Input employee data → Get result)
-- 📊 Result Output: “Likely to leave” / “Likely to stay”
-- 📉 Model Performance Insights
+#How to Run the App Locally
 
----
-
-## 🚀 How to Run the App Locally
-
-```bash
+-->bash
 # Step 1: Clone the repo
-git clone https://github.com/yourusername/employee-attrition-predictor.git
+git clone https://github.com/Varshinirao18/employee-attrition-predictor.git
 cd employee-attrition-predictor
 
 # Step 2: Install packages
