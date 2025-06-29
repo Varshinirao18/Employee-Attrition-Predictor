@@ -37,10 +37,10 @@ This project uses a machine learning model to predict whether an employee is lik
 
 #Model Details
 
-- ✅ Model: Random Forest / Logistic Regression
-- 📊 Accuracy: ~88% on test data
-- 📁 Vectorizer: Label Encoding + Scaling
-- 🧪 Evaluation: Confusion Matrix, Classification Report
+- Model: Random Forest / Logistic Regression
+- Accuracy: ~88% on test data
+- Vectorizer: Label Encoding + Scaling
+- Evaluation: Confusion Matrix, Classification Report
 
 #Features
 
@@ -65,18 +65,16 @@ python app.py
 
 Then visit: `http://127.0.0.1:5000`
 
----
+#Screenshots
 
-## 📸 Screenshots
+#Login Page  
+<img src="https://raw.githubusercontent.com/Varshinirao18/employee-attrition-predictor/master/screenshots/login.png" width="500"/>
 
-### 🔐 Login Page  
-<img src="https://raw.githubusercontent.com/yourusername/employee-attrition-predictor/main/screenshots/login.png" width="500"/>
+#Dashboard / Input Page  
+<img src="https://raw.githubusercontent.com/Varshinirao18/employee-attrition-predictor/master/screenshots/dashboard.png" width="500"/>
 
-### 📊 Dashboard / Input Page  
-<img src="https://raw.githubusercontent.com/yourusername/employee-attrition-predictor/main/screenshots/dashboard.png" width="500"/>
-
-### 📍 Prediction Result  
-<img src="https://raw.githubusercontent.com/yourusername/employee-attrition-predictor/main/screenshots/result.png" width="500"/>
+#Prediction Result  
+<img src="https://raw.githubusercontent.com/Varshinirao18/employee-attrition-predictor/master/screenshots/result.png" width="500"/>
 
 
 #License
